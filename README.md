@@ -45,7 +45,9 @@ The review data structure should look like this JSON:
     "car_make": "Audi", // from django dropdown
     "car_model": "A6", // from django dropdown
     "car_year": 2010 // form django dropdown
-}````
+}```
+
+````
 
 On submission, the user should be taken back to the dealership detail page with the submitted review featured at the top of the reviews list, sorted on time.
 
